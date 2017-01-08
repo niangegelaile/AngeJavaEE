@@ -10,9 +10,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>updateUser</title>
 </head>
 <body>
+<h1>updateUser</h1>
 	<form action="<%=path%>/user/updateUser.do" method="post">
 		<input type="hidden" name="id" value="${user.id}">
 		<table>

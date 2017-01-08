@@ -13,6 +13,7 @@
 <title>user_list</title>
 </head>
 <body>
+	<p>user_list</p>
 	<table border="1" width="70%">
 		<tr>
 			<td>id</td>

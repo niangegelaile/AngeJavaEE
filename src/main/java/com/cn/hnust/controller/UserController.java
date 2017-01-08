@@ -17,11 +17,9 @@ import com.cn.hnust.service.IUserService;
 public class UserController {
 	@Resource
 	private IUserService userService;
-	@RequestMapping("/showUser")
+	@RequestMapping("/index")
 	public String toIndex(HttpServletRequest request,Model model){
-		int userId=Integer.parseInt(request.getParameter("id"));
-		User user=userService.getUserById(userId);
-		return "showUser" ;
+		return "redirect:/user/listUser.do" ;
 	}
 	@RequestMapping("/listUser")
 	public String listUser(HttpServletRequest request){

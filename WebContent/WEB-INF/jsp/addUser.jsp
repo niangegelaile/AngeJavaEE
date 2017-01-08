@@ -13,6 +13,7 @@
 <title>addUser</title>
 </head>
 <body>
+	<h1>addUser</h1>
 	<form action="<%=path%>/user/addUser.do" method="post">
 		<table>
 			<tr>
